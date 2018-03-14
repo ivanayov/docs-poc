@@ -26,8 +26,8 @@ site_url: https://www.openfaas.com/
 
 
 # Repository
-repo_name: openfaas/faas
-repo_url: https://github.com/openfaas/faas
+repo_name: openfaas-incubator/docs-poc
+repo_url: https://github.com/openfaas-incubator/docs-poc
 edit_uri: ""
 
 # edit_uri: edit/docs-revamp/docs/
@@ -65,9 +65,9 @@ extra:
     - type: globe
       link: https://www.openfaas.com/
     - type: github-alt
-      link: https://github.com/openfaas/faas
+      link: https://github.com/openfaas-incubator/docs-poc
     - type: twitter
-      link: https://twitter.com/openfaas
+      link: https://twitter.com/openfaas-incubator
 
 extra_css:
   - stylesheets/extra.css
@@ -102,31 +102,3 @@ markdown_extensions:
 # Page tree
 pages:
   - Overview: index.md
-  - Getting Started:
-    - Part 1 - Deploy: getting-started/deploy.md
-    - Part 2 - OpenFaaS CLI: getting-started/faas-cli.md
-    - Part 3 - Create a Function: getting-started/functions.md
-  - Architecture: architecture.md
-  - Deployment Guides:
-    - Docker Swarm: deployment/swarm.md
-    - Kubernetes: deployment/kubernetes.md
-  - Cloud Platform Guides:
-    - Digital Ocean: cloud-platforms/swarm_digitalocean.md
-    - Play-with-Docker: cloud-platforms/play-with-docker.md
-  - Integration Guides:
-    - Kong: integrations/kong.md
-    - Traefik: integrations/traefik.md
-  - Development:
-    - API Gateway: developer/gateway.md
-    - Watchdog: developer/watchdog.md
-    - Asynchronous Functions: developer/asynchronous.md
-    - Swagger API: developer/swagger.md
-    - Debugging: developer/debug.md
-    - Backends: developer/backends.md
-    - Function Chaining: developer/chaining_functions.md
-  - Tutorials:
-    - Secret Management: operations/secure_secret_management.md
-    - Private Registry: operations/managing-images.md
-    - Performance Testing: operations/performance_testing.md
-    - Interacting w/ Other Containers: operations/interactions.md
-  - Troubleshooting: troubleshooting.md
