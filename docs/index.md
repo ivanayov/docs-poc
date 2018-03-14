@@ -3,6 +3,8 @@
 
 OpenFaaS (Functions as a Service) is a framework for building serverless functions with Docker which has first class support for metrics. Any process can be packaged as a function enabling you to consume a range of web events without repetitive boiler-plate coding.
 
+![Stack](https://pbs.twimg.com/media/DFrkF4NXoAAJwN2.jpg)
+
 ## Highlights
 
 * Ease of use through UI portal and *one-click* install
