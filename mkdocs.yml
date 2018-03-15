@@ -102,3 +102,4 @@ markdown_extensions:
 # Page tree
 pages:
   - Overview: index.md
+  - Community: community.md
